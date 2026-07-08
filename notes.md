@@ -29,3 +29,8 @@ and Assembly's need a container too, which is the Application.
 Sooooo, it goes
     -> Application -> Assembly -> Namespace -> Classes 
 ## Our First #C Application
+Refer to HelloWorld
+
+### What is a literal value
+A literal value is a value that never changes, it is constant. 
+using single quotes '' will only allow a single letter, because it looks for char as the data type (alphanumeric value)
