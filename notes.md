@@ -69,3 +69,37 @@ The .NET runtime:
 - Locates the programs entry point and begins running each instruction in the proper order
 - Manages computer memory and network access. It works with the operating system to save memory for your application. When your application no longer needs something saved it will do a garbage collection feature which releases that memory back to the operating system without any instructions from the developer.
 - Will block any software that may have malicious intent
+
+## Adding Dependencies
+**What is a dependency**
+
+A package dependency is a third-party library. It's a piece of reuseable code that accomplishes something and that you add to your application. Your application is now *depending* on that third-party library.
+
+**How to Add one**
+
+Using the .NET CLI enter this command in the terminal, this will add it to your .csproj file
+`dotnet add package <name of package>`
+
+Once installed, to see what packages are installed (the top-level packages only)
+`dotnet list package`
+
+to include ALL dependencies including transitive (ones that are in the main dependency)
+`dotnet list package --include-transitive`
+
+To restore any dependencies when clone a project
+`dotnet restore`
+
+but in most cases you will not need this, by running the `new`, `run`, or `build` commands NuGet will restore any dependencies when necessary.
+
+To remove a dependency/package, this will remove the package from your projects .csproj file
+`dotnet remove package <name of dependency>`
+
+## Starting a .NET project
+
+Create a Program.cs file in your project folder
+`dotnet new console -n MyFirstApp`
+
+To run your project
+`dotnet run`
+
+

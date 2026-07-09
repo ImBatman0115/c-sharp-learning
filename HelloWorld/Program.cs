@@ -45,15 +45,19 @@
 // Console.Write(firstName);
 
 //Challenge: display literal and variable values
-var firstName = "Bruce";
-int amountOfMessages = 3;
-float temperature = 34.4f;
+// var firstName = "Bruce";
+// int amountOfMessages = 3;
+// float temperature = 34.4f;
 
-Console.Write("Hello, ");
-Console.Write(firstName);
-Console.Write("! ");
-Console.Write("You have ");
-Console.Write(amountOfMessages);
-Console.Write(" messages in your inbox. The temperature is ");
-Console.Write(temperature);
-Console.Write(" celsius.");
+// Console.Write("Hello, ");
+// Console.Write(firstName);
+// Console.Write("! ");
+// Console.Write("You have ");
+// Console.Write(amountOfMessages);
+// Console.Write(" messages in your inbox. The temperature is ");
+// Console.Write(temperature);
+// Console.Write(" celsius.");
+
+using Humanizer;
+
+Console.WriteLine("Hello, World!");
