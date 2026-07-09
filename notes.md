@@ -4,28 +4,35 @@
 - .NET is a framework for building applications on Windows
     - CLR
     - Class Library
+
+**Big Takeaway**
+
+C# is the programming language, while .NET is the environment which allows all operating systems(Windows,MacOS, Linux) and hardwares (64-bit or 32-bit processor) to run your program.
 ## CLR(Common Language Run-time)
 When C# is compiled it is complied as IL(Intermideiate Language) Code which then needs to be understood by the system the application is running on or the Native Code, thats where Common Language Run-time comes in.
 ## Architecture of .NET Applications
 Building blocks of Classes
-    - Class
-        -Data(Attributes)
-        -Methods/Functions (do things for us)
-    -Car
-        - **Data**
-        -Make
-        -Model
-        -Color
-        - **Methods/Functions**
-        -Start
-        -Move
+- Class
+    - Data(Attributes)
+    - Methods/Functions (do things for us)
+- Car
+    - **Data**
+    - Make
+    - Model
+    - Color
+    - **Methods/Functions**
+    - Start
+    - Move
+
 Lots of Classes pile up we need a way to organize them
 Namespace is a container for related Classes
-    - Data
-    - Graphics
-    - Functions
+- Data
+- Graphics
+- Functions
+
 Namespaces need an container too, which are Assembly's
 and Assembly's need a container too, which is the Application.
+
 Sooooo, it goes
     -> Application -> Assembly -> Namespace -> Classes 
 ## Our First #C Application
@@ -34,3 +41,31 @@ Refer to HelloWorld
 ### What is a literal value
 A literal value is a value that never changes, it is constant. 
 using single quotes '' will only allow a single letter, because it looks for char as the data type (alphanumeric value)
+
+## C# vs F#
+**What is the Difference between the two?**
+
+C# is an object oriented model while F# is based on functional programming. Meaning C# focuses on uses classes, objects, and interfaces to organize applications. While, F# is focusing on functions, using functions to deal with data.
+
+## .NET application frameworks and libraries
+Software is built in layers.
+
+Starting with the computers hardware
+
+To the operating system
+
+To the development and running of applications
+
+To the application frameworks and libraries of functionality to build rich applications fast
+
+A code library stores functionality for a specific purpose into a single assembly. Libraries allow you to provide all kinds of functionality in your applications. Simply, reference those assemblies and call the methods you need. This way you are building on top of existing developers work to save time and energy.
+
+An application framework combines several libraries, so you can build entire applications for a specific purpose. Application frameworks are known as app models. .Net application frameworks are available for popular app models like web, desktop and mobile, and game dev.
+
+## .NET runtime
+The .NEt runtime is like protective bubble that provides a run environment for your applications.
+The .NET runtime:
+- Complies intermediate code into binary format on the first run. The binary format is specific to the computer it's running on.
+- Locates the programs entry point and begins running each instruction in the proper order
+- Manages computer memory and network access. It works with the operating system to save memory for your application. When your application no longer needs something saved it will do a garbage collection feature which releases that memory back to the operating system without any instructions from the developer.
+- Will block any software that may have malicious intent
