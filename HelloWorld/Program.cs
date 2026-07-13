@@ -139,3 +139,79 @@
 // string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
 // Console.WriteLine($"{russianMessage}:\n\t c:\\Exercise\\{projectName}\\ru-RU\\data.txt");
 
+//----Numeric Manipulation----
+//Concatenation:
+// int firstNumber = 12;
+// int secondNumber = 7;
+// Console.WriteLine(firstNumber + secondNumber);
+
+// string firstName = "Kayden";
+// int widgetsSold = 7;
+// Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
+
+//Mathematics:
+// int sum = 7 + 5;
+// int difference = 7 - 5;
+// int product = 7 * 5;
+// int quotient = 7 / 5;
+// decimal decimalQuotient = 7.0m / 5;
+
+
+// Console.WriteLine("Sum: " + sum);
+// Console.WriteLine("Difference: " + difference);
+// Console.WriteLine("Product: " + product);
+// Console.WriteLine("Quotient: " + quotient);
+// Console.WriteLine("Decimal Quotient: " + decimalQuotient);
+
+// //Type cast - temporarily change the data type
+// int first = 7;
+// int second = 5;
+// decimal castedQuotient = (decimal)first / (decimal)second;
+// Console.WriteLine("Type Casted Quotient: " + castedQuotient);
+
+//Modulus operator - is there an remainder to your division
+// Console.WriteLine($"Modulus of 200 / 5: {200 % 5}");
+// Console.WriteLine($"Modulus of 7 / 5: {7 % 5}");
+
+//Order of Operations
+// int value1 = 3 + 4 * 5;
+// int value2 = (3 + 4) * 5;
+// Console.WriteLine("Product of Value1: " + value1);
+// Console.WriteLine("Product of Value2: " + value2);
+
+//Increment and Decrement
+// Console.WriteLine("------------------------------------------------");
+//+= allows you to increment by a number you choose
+// int value3 = 0;     // value is now 0.
+// value3 = value3 + 5; // value is now 5. This line is the same as the line below
+// value3 += 5;        // value is now 10. This line does it more efficiently
+
+//++ allows you ti increment by 1
+// int value4 = 0;     // value is now 0.
+// value4 = value4 + 1; // value is now 1. This line is the same as the line below
+// value4++;           // value is now 2. This line does it more efficiently
+
+// int value = 1;
+
+// value++;
+// Console.WriteLine("First increment: " + value);
+
+// Console.WriteLine("Second increment: " + value++);
+
+// Console.WriteLine("Third increment: " + value);
+
+// Console.WriteLine("Fourth increment: " + (++value));
+
+// value = value - 1;
+// Console.WriteLine("First decrement: " + value);
+
+// value -= 1;
+// Console.WriteLine("Second decrement: " + value);
+
+// value--;
+// Console.WriteLine("Third decrement: " + value);
+
+//Challenge: Calculate Celsius given the current temperature in Fahrenheit
+int fahrenheit = 94;
+decimal celsius = (fahrenheit - 32m) * (5m / 9m);
+Console.WriteLine($"The temperature is {celsius} Celsius");
