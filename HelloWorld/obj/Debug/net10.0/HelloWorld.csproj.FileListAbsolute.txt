@@ -58,3 +58,8 @@ C:\Users\kayde\Desktop\c-sharp-learning\HelloWorld\bin\Debug\net10.0\zh-Hans\Hum
 C:\Users\kayde\Desktop\c-sharp-learning\HelloWorld\bin\Debug\net10.0\zh-Hant\Humanizer.resources.dll
 C:\Users\kayde\Desktop\c-sharp-learning\HelloWorld\obj\Debug\net10.0\HelloWorld.csproj.AssemblyReference.cache
 C:\Users\kayde\Desktop\c-sharp-learning\HelloWorld\obj\Debug\net10.0\HelloWorld.csproj.Up2Date
+C:\Users\kayde\Desktop\c-sharp-learning\HelloWorld\bin\Debug\net10.0\az\Humanizer.resources.dll
+C:\Users\kayde\Desktop\c-sharp-learning\HelloWorld\bin\Debug\net10.0\hy\Humanizer.resources.dll
+C:\Users\kayde\Desktop\c-sharp-learning\HelloWorld\bin\Debug\net10.0\ko-KR\Humanizer.resources.dll
+C:\Users\kayde\Desktop\c-sharp-learning\HelloWorld\bin\Debug\net10.0\ku\Humanizer.resources.dll
+C:\Users\kayde\Desktop\c-sharp-learning\HelloWorld\bin\Debug\net10.0\th-TH\Humanizer.resources.dll
