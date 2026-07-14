@@ -1,0 +1,15 @@
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\bin\Debug\net10.0\GradingProject.exe
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\bin\Debug\net10.0\GradingProject.deps.json
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\bin\Debug\net10.0\GradingProject.runtimeconfig.json
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\bin\Debug\net10.0\GradingProject.dll
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\bin\Debug\net10.0\GradingProject.pdb
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\obj\Debug\net10.0\GradingProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\obj\Debug\net10.0\GradingProject.AssemblyInfoInputs.cache
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\obj\Debug\net10.0\GradingProject.AssemblyInfo.cs
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\obj\Debug\net10.0\GradingProject.csproj.CoreCompileInputs.cache
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\obj\Debug\net10.0\GradingProject.sourcelink.json
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\obj\Debug\net10.0\GradingProject.dll
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\obj\Debug\net10.0\refint\GradingProject.dll
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\obj\Debug\net10.0\GradingProject.pdb
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\obj\Debug\net10.0\GradingProject.genruntimeconfig.cache
+C:\Users\kayde\Desktop\c-sharp-learning\GradingProject\obj\Debug\net10.0\ref\GradingProject.dll

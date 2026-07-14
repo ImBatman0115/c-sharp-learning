@@ -37,6 +37,8 @@ Sooooo, it goes
     -> Application -> Assembly -> Namespace -> Classes 
 ## Our First #C Application
 Refer to HelloWorld
+### How to create your first project
+To make a new .NET project in VS Code, ensure you have the .NET SDK and the C# Dev Kit extension installed. Open VS Code, press Ctrl + Shift + P (or Cmd + Shift + P on Mac), type .NET: New Project, select your template (e.g., Console App), choose a location, and name it.
 
 ### What is a literal value
 A literal value is a value that never changes, it is constant. 
