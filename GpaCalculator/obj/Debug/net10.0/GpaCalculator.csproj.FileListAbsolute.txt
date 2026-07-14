@@ -1,0 +1,15 @@
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\bin\Debug\net10.0\GpaCalculator.exe
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\bin\Debug\net10.0\GpaCalculator.deps.json
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\bin\Debug\net10.0\GpaCalculator.runtimeconfig.json
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\bin\Debug\net10.0\GpaCalculator.dll
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\bin\Debug\net10.0\GpaCalculator.pdb
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\obj\Debug\net10.0\GpaCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\obj\Debug\net10.0\GpaCalculator.AssemblyInfoInputs.cache
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\obj\Debug\net10.0\GpaCalculator.AssemblyInfo.cs
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\obj\Debug\net10.0\GpaCalculator.csproj.CoreCompileInputs.cache
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\obj\Debug\net10.0\GpaCalculator.sourcelink.json
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\obj\Debug\net10.0\GpaCalculator.dll
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\obj\Debug\net10.0\refint\GpaCalculator.dll
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\obj\Debug\net10.0\GpaCalculator.pdb
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\obj\Debug\net10.0\GpaCalculator.genruntimeconfig.cache
+C:\Users\kayde\Desktop\c-sharp-learning\GpaCalculator\obj\Debug\net10.0\ref\GpaCalculator.dll
