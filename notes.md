@@ -132,3 +132,22 @@ It is a collection of thousands of classes containing ten of thousands of method
 
 Even your data types are part of the .NET class library. C# merely provides an alias for those data types (example: string.ToUpper() -> will make string all uppercase)
 
+### Stateless vs Stateful methods
+the term state is used to describe the condition of the excution enviroment at a specific moment in time. At any moment during execution, the current state of the application is the collection of all values stored in memory.
+
+#### Stateless (static methods)
+Some methods don't rely on the current state of the application to work properly. A method can work without referencing or changing any values already stored in memory. An example is Console.WriteLine() method, it doesnt rely on memory it can function without impacting the state of the application in any way.
+
+#### Stateful (instance methods)
+Other methods MUST have access to the state of the application to work.These methods rely on values stored in memory by previous lines of code that have already been executed. Or they modify the state of application by updating values or storing new values in memory. 
+
+A single class can support both stateful and stateless methods. However, when you need to call stateful methods, you must create an instance of the class so that the method can access state.
+
+#### Calling an instance of a class
+An instance of a class is called an object. To create a new instance of a class, you use the new operator. 
+Example : Random dice = new Random()
+this creates a new instance of the random class to create a new object called dice.
+The new operator does many things:
+- It requests an address in the computer's memory large enough to store a new object based on the Random class
+- It creates the new object, and stores it at the memory address
+- It returns the memory address so that it can be saved in the dice object
