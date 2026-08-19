@@ -126,4 +126,9 @@ To run your project
 <!-- Accepts 1.3.2 up to 1.4.x, but not 1.5 and later. -->
 <PackageReference Include="ExamplePackage" Version="[1.3.2,1.5)" />`
 
+## .NET Library
+### What is a .NET class library?
+It is a collection of thousands of classes containing ten of thousands of methods. An example is Console is a class while Write() and WriteLine() are methods.
+
+Even your data types are part of the .NET class library. C# merely provides an alias for those data types (example: string.ToUpper() -> will make string all uppercase)
 
