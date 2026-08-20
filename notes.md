@@ -151,3 +151,18 @@ The new operator does many things:
 - It requests an address in the computer's memory large enough to store a new object based on the Random class
 - It creates the new object, and stores it at the memory address
 - It returns the memory address so that it can be saved in the dice object
+
+### Return Values
+
+Some methods are referred as void methods. Meaning they do not return a value when finished.
+
+Others are designed to return a value when completed. Return values are typically the result of an operation. 
+
+When calling a method that returns a value you will often assign the return value to a variable. That way you can use the value later in your code.
+Example: int roll = dice.Next(1,7)
+
+Other times you want to use the return value directly, without assigning it to a variable.
+Example: Console.WriteLine(dice.Next(1,7))
+
+You could even ignore the return value. This is pointless because your calling the method so you can use the return value.
+Example: dice.Next(1, 7)
