@@ -21,34 +21,65 @@
 // Console.WriteLine(largerValue);
 
 //Dice rolling game! (intro to conditional statements)
-Random dice = new Random();
+// Random dice = new Random();
 
-int roll1 = dice.Next(1, 7);
-int roll2 = dice.Next(1, 7);
-int roll3 = dice.Next(1, 7);
+// int roll1 = dice.Next(1, 7);
+// int roll2 = dice.Next(1, 7);
+// int roll3 = dice.Next(1, 7);
 
-int total = roll1 + roll2 + roll3;
+// int total = roll1 + roll2 + roll3;
 
-Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
+// Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
 
-if((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
-{
-    Console.WriteLine("You rolled doubles! +2 bonus to your total! :o ");
-    total +=2;
-}
+// if((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
+// {
+//     Console.WriteLine("You rolled doubles! +2 bonus to your total! :o ");
+//     total +=2;
+// }
 
-if((roll1 == roll2) && (roll2 == roll3))
-{
-    Console.WriteLine("You rolled triples! +6 bonus to total! :O ");
-    total +=6;
-}
+// if((roll1 == roll2) && (roll2 == roll3))
+// {
+//     Console.WriteLine("You rolled triples! +6 bonus to total! :O ");
+//     total +=6;
+// }
 
-if(total >= 15)
-{
-    Console.WriteLine("Your total is greater than 14! You Win!!! :) ");
-}
+// if(total >= 15)
+// {
+//     Console.WriteLine("Your total is greater than 14! You Win!!! :) ");
+// }
 
-if (total < 15)
-{
-    Console.WriteLine("Sorry, your total is less than 15. You lose. :( ");
-}
+// if (total < 15)
+// {
+//     Console.WriteLine("Sorry, your total is less than 15. You lose. :( ");
+// }
+
+//Challenge: Improve renewal rate of subscriptions
+// Random random = new Random();
+// int daysUntilExpiration = random.Next(12);
+// int discountPercentage = 0;
+
+// if(daysUntilExpiration == 1)
+// {
+//     Console.WriteLine("Your subscription expires within a day!");
+//     discountPercentage = 20;
+//     Console.WriteLine($"Renew now and save {discountPercentage}%");
+    
+// } else if(daysUntilExpiration <= 5)
+// {
+// Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days.");
+//         discountPercentage = 10;
+//         Console.WriteLine($"Renew now and save {discountPercentage}%");
+// } else if(daysUntilExpiration <= 10)
+// {
+//      Console.WriteLine("Your subscription will expire soon. Renew now!");
+// } else
+// {
+//     Console.WriteLine("nothing");
+// }
+
+//OPTIONAL:
+// if (discountPercentage > 0)
+// {
+//     Console.WriteLine($"Renew now and save {discountPercentage}%");
+// }
+
