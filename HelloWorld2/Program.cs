@@ -83,3 +83,22 @@
 //     Console.WriteLine($"Renew now and save {discountPercentage}%");
 // }
 
+//Arrays!!
+// string[] fraudulentOrderIDs = new string[3];
+// fraudulentOrderIDs[0] = "A123";
+// fraudulentOrderIDs[1] = "B456";
+// fraudulentOrderIDs[2] = "C789";
+//fraudulentOrderIDs[3] = "D000";
+
+string[] fraudulentOrderIDs = ["A123", "B456", "C789"];
+
+Console.WriteLine($"First: {fraudulentOrderIDs[0]}");
+Console.WriteLine($"Second: {fraudulentOrderIDs[1]}");
+Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
+
+//reassigning values
+fraudulentOrderIDs[0] = "F000";
+Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
+
+//length property (will tell you how manny items are in your array, starting at 1)
+Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
