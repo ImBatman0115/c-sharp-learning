@@ -121,7 +121,7 @@
 // }
 // Console.WriteLine($"We have {sum} items in inventory");
 
-//CHALLENGE: Report the order IDs that need further investigation
+/* CHALLENGE: Report the order IDs that need further investigation
 string[] fraudulentIDs = ["B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"];
 foreach (string id in fraudulentIDs)
 {
@@ -129,4 +129,4 @@ foreach (string id in fraudulentIDs)
     {
         Console.WriteLine($"{id}");
     }
-}
+} */
